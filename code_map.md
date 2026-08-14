@@ -1,18 +1,19 @@
-# Code Map
+# Code Map (Fase 2)
 
-**Current Structure:**
-- `index.html`: Entry UI. Contains Hero, Services, About, and Contact sections.
-- `styles.css`: Global base styles. Includes custom properties for colors (`--color-primary`, etc.) and typography.
-- `main.js`: Contains smooth scrolling logic and a simulated form submission.
+**Estructura Principal:**
+- `index.html`: Web principal (One-page ampliada). Contiene Hero (Carrusel), Servicios, Precios, Google Business, Filosofía y Contacto limpio. Footer Premium.
+- `galeria.html`: Nueva página independiente "Nuestros Trabajos". Muestra un Grid Masonry con visor Lightbox. Comparte Footer y Navbar.
+- `styles.css`: Estilos globales centralizados. Incluye componentes UI nuevos (Carrusel CSS, Modal Lightbox, Footer Grid).
+- `main.js`: Lógica unificada para el Scroll suave, el temporizador del Carrusel y la interactividad del Lightbox de la galería.
 - `README.md`: Setup/overview.
-- `agents.md`: AI rules.
+- `agents.md`: Reglas AI.
 
-**Assets (`/ImagenesAvalonMystic`):**
-- Logo.jpeg
-- MicroCejas.jpeg
-- Microlips.jpeg
-- Microlips2.jpeg
-- Nails2.jpeg
-- NailsAcrilico.jpeg
+**Assets Propios:**
+- `/ImagenesAvalonMystic`: Logo e imágenes de servicios.
+- `/CarruselInicio`: 5 imágenes de rotación automática (Fondo Hero).
+- `/GaleriaServicios`: 6 imágenes de portafolio para la galería en grid.
 
-**Active Components:** None yet. Webpage is built as a single-page HTML for now.
+**Modificaciones Recientes:**
+- Header comprimido un 25% (uso de overhang logo).
+- Formulario de contacto eliminado, ahora tarjeta limpia centralizada.
+- Footer convertido en bloque masivo premium.
